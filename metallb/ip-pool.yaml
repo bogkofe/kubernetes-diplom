@@ -1,0 +1,9 @@
+apiVersion: metallb.io/v1beta1
+kind: IPAddressPool
+metadata:
+  name: my-ip-pool
+  namespace: default
+spec:
+  addresses:
+  - 89.169.150.75/32
+  autoAssign: true

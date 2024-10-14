@@ -9,7 +9,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /
+      - path: /monitoring
         pathType: Prefix
         backend:
           service:
